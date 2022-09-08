@@ -109,26 +109,3 @@ body, html {
   background-color: #555;
   color: white;
 }
-
-#gallery {
-  line-height:0;
-  -webkit-column-count:3; /* split it into 5 columns */
-  -webkit-column-gap:0px; /* give it a 5px gap between columns */
-  -moz-column-count:5;
-  -moz-column-gap:0px;
-  column-count:5;
-  column-gap:0px;
-}
-
-#gallery img {
-  width: 100% !important;
-  height: auto !important;
-  margin-bottom:0px; /* to match column gap */
-}
-
-
-.gallery img:hover {
-  -ms-transform: scale(1.1); /* IE 9 */
-  -webkit-transform: scale(1.1); /* Safari 3-8 */
-  transform: scale(1.1); 
-}
