@@ -1,17 +1,3 @@
-body, html {
-  font-family: Arial, Helvetica, sans-serif;
-  background-color: #877b97;
-  height: 100%;
-  margin: 0;
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-  .mainText{
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    color: #5d0583;
-    text-align: center;
-  }
-  
   .header {
     overflow: hidden;
     background-color: #05051f;
@@ -60,7 +46,7 @@ body, html {
       float: none;
     }
   }
-  .footer {
+/*  .footer {
     position: fixed;
     left: 0;
     bottom: 0;
@@ -68,20 +54,35 @@ body, html {
     background-color: #06061e;
     color: white;
     text-align: center;
+ }*/
+
+ .footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #06061e;
+  color: white;
+  text-align: center;
  }
+
+ @media screen and (max-width: 500px) {
+  .footer {
+    display: flex;
+    flex-direction: column;
+   }
+
+   .footer a {
+    margin-bottom: 5px;
+   }
+}
 
  a{
   color: #c6c6c6;
  }
-
-.hero-image {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("images/japan.jpg");
-  height: 40%;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  position: relative;
-}
 
 .hero-text {
   text-align: center;
@@ -107,22 +108,8 @@ body, html {
   background-color: #555;
   color: white;
 }
-.flex-container {
-  display: flex;
-  align-items: stretch;
-}
-
-.flex-container > div {
-  margin: 10px;
-  text-align: center;
-  line-height: 75px;
-  font-size: 30px;
-}
 
 h1{
   text-align: center;
   color: white;
-}
-.playlist_button{
-  text-align: center;
 }
