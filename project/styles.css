@@ -118,3 +118,12 @@ p{
   color: #ddd;
 
 }
+.flex-container-text{
+  background-color: #5c516c;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin: 2%;
+  margin-bottom: 3%;
+}
