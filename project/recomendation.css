@@ -1,0 +1,28 @@
+body, html {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #877b97;
+    height: 100%;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .hero-image {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("images/movie.jpg");
+    height: 40%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+  
+  .flex-container {
+    display: flex;
+    align-items: stretch;
+    flex-direction: column;
+  }
+  
+  .flex-container > div {
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+  }
