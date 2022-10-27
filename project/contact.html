@@ -9,7 +9,16 @@
     <link rel="icon" href="images/turtle3.png">
    
 </head>
-
+<script>
+  function myFunction() {
+    var x = document.getElementById("myLinks");
+    if (x.style.display === "block") {
+      x.style.display = "none";
+    } else {
+      x.style.display = "block";
+    }
+  }
+  </script>
 <body>
     <div class="header">
       <a href="index.html" class="logo"><img src="images/turtle-1.png" alt="Logo" style="width:50px;height:50px;"></a>
@@ -21,6 +30,24 @@
           <a href="contact.html">Contact</a>
         </div>
       </div>
+      <div class="mobile-container">
+        <div class="topnav">
+          <a href="#home" class="active"><img src="images/turtle-1.png" alt="logo"style="width:50px;height:50px;"></a>
+          <div id="myLinks">
+            <a href="index.html">Home</a>
+            <a href="gallery.html">Gallery</a>
+            <a href="musicgallery.html">Playlists</a>
+            <a href="recomendation.html">Recomendations</a>
+            <a href="contact.html">Contact</a>
+          </div>
+          <a href="javascript:void(0);" class="icon" onclick="myFunction()"><img src="images/burger_menu.png" style="width:35px;height:35px">
+            <i class="fa fa-bars"></i>
+          </a>
+        </div>
+      </div>
+      <div class="mainText" style="padding-left:20px">
+      </div>
+
       <div class="hero-image">
         <div class="hero-text">
           <h1 style="font-size:50px">Contact us</h1>
