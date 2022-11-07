@@ -29,7 +29,4 @@ body, html {
     .flex-container{
       flex-direction: column;
     }
-    #feel_good{
-      visibility: hidden;
-    }
   }
