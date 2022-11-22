@@ -112,6 +112,64 @@ function toggleTextApril() {
         buttonText.innerHTML = "Show Less";
     }
 }
+function toggleTextDN() {
+    
+    var points = 
+        document.getElementById("pointsDN");
+
+    var showMoreText =
+        document.getElementById("moreTextDN");
+
+    var buttonText =
+        document.getElementById("textButtonDN");
+
+    if (points.style.display === "none") {
+
+        showMoreText.style.display = "none";
+
+        points.style.display = "inline";
+
+        buttonText.innerHTML = "Show More";
+    }
+
+    else {
+
+        showMoreText.style.display = "inline";
+
+        points.style.display = "none";
+
+        buttonText.innerHTML = "Show Less";
+    }
+}
+function toggleTextBelle() {
+    
+    var points = 
+        document.getElementById("pointsBelle");
+
+    var showMoreText =
+        document.getElementById("moreTextBelle");
+
+    var buttonText =
+        document.getElementById("textButtonBelle");
+
+    if (points.style.display === "none") {
+
+        showMoreText.style.display = "none";
+
+        points.style.display = "inline";
+
+        buttonText.innerHTML = "Show More";
+    }
+
+    else {
+
+        showMoreText.style.display = "inline";
+
+        points.style.display = "none";
+
+        buttonText.innerHTML = "Show Less";
+    }
+}
 function myFunction() {
     var x = document.getElementById("myLinks");
     if (x.style.display === "block") {
